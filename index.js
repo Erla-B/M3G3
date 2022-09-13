@@ -49,9 +49,6 @@ console.log(person); // Outputs full name and age
 console.log(person.age); // Outputs age
 
 // Date and time
-var today = new Date();
-var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-var dateTime = date+' '+time;
+let d = new Date();
 
-console.log(today); // Output is current time
+console.log(d.toString()); // Output is current time
